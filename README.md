@@ -7,6 +7,7 @@ __基于avalon 1.4.6研究__
 
 ### 1. 使用mmstate切换页面时候发生的内存泄漏
 
+[测试页面](http://lkiarest.github.io/oniui-extend/#!/duplexDemo)
 ```
 使用mmstate路由，测试页面2基本就是一个空的只显示一个字符串，测试页面1里面放几个input，使用ms-duplex绑定到vm的属性。
 在页面1和2之间切换的时候发现内存会一直增长不会释放。
